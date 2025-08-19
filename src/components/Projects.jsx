@@ -8,6 +8,7 @@ import netflix1 from "../assets/project-images/netflix1.png"
 import EcoPath1 from "../assets/project-images/EcoPath1.png"
 import HRM from "../assets/project-images/HRM2.png"
 import AdminHRM from "../assets/project-images/Admin-HRM1.png"
+import chatbot from "../assets/project-images/chatbot.jpg"
 
 const projects = [
   {
@@ -119,6 +120,22 @@ const projects = [
     ],
     sourceCodeLink: "https://github.com/Mukesh704/Netflix-Clone",
     liveLink: "https://netflic-clone-m07.netlify.app/",
+  },
+  {
+    id: "chatbot",
+    title: "Chatbot API",
+    description:
+      "A scalable backend API that powers an intelligent chatbot for handling user queries, managing conversations, and delivering automated responses.",
+    image: chatbot,
+    techStack: [
+      "Node.js",
+      "Express.js",
+      "body-parser",
+      "dotenv",
+      "Google Generative AI"
+    ],
+    sourceCodeLink: "https://github.com/Mukesh704/Chatbot",
+    liveLink: "",
   },
 ];
 

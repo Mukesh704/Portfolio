@@ -72,6 +72,9 @@ import AdminHRM7 from "../assets/project-images/Admin-HRM7.png"
 import nteflix1 from "../assets/project-images/netflix1.png"
 import nteflix2 from "../assets/project-images/netflix2.png"
 import nteflix3 from "../assets/project-images/netflix3.png"
+
+import chatbot from "../assets/project-images/chatbot.jpg"
+
 import { SiE3 } from "react-icons/si";
 
 // Example data with multiple images
@@ -299,6 +302,24 @@ const projects = [
         ],
         sourceCodeLink: "https://github.com/Mukesh704/Netflix-Clone",
         liveLink: "https://netflic-clone-m07.netlify.app/",
+    },
+    {
+        id: "chatbot",
+        title: "Chatbot API",
+        description:
+            "The Chatbot Backend API is a robust server-side application designed to power conversational AI systems using Google’s Gemini generative AI. Built with Node.js and Express, it processes user queries, maintains conversation context, and delivers intelligent, human-like responses in real time.\n\nIt integrates with databases and external APIs to fetch dynamic information, personalize interactions, and automate tasks such as ticket creation, notifications, or bookings. The system also supports user session tracking, chat history storage, and role-based access for secure operations.\n\nAdditionally, it includes conversation logging and analytics features to evaluate performance and improve responses. Scalable and flexible, the API can seamlessly integrate with multiple platforms, including web, mobile, and third-party apps (Slack, WhatsApp, Messenger).\n\nIn essence, this backend serves as the brain of the chatbot ecosystem, offering smart, secure, and action-oriented conversations that enhance user engagement and streamline workflows.",
+        images: [
+            chatbot,
+        ],
+        techStack: [
+            "Node.js",
+            "Express.js",
+            "body-parser",
+            "dotenv",
+            "Google Generative AI"
+        ],
+        sourceCodeLink: "https://github.com/Mukesh704/Chatbot",
+        liveLink: "",
     },
 ];
 
