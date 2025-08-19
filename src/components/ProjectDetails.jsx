@@ -24,6 +24,15 @@ import UrbanBasket18 from '../assets/project-images/UrbanBasket18.png'
 import UrbanBasket19 from '../assets/project-images/UrbanBasket19.png'
 import UrbanBasket20 from '../assets/project-images/UrbanBasket20.png'
 
+import AdminUrbanBasket1 from '../assets/project-images/Admin-UrbanBasket1.png'
+import AdminUrbanBasket2 from '../assets/project-images/Admin-UrbanBasket2.png'
+import AdminUrbanBasket3 from '../assets/project-images/Admin-UrbanBasket3.png'
+import AdminUrbanBasket4 from '../assets/project-images/Admin-UrbanBasket4.png'
+import AdminUrbanBasket5 from '../assets/project-images/Admin-UrbanBasket5.png'
+import AdminUrbanBasket6 from '../assets/project-images/Admin-UrbanBasket6.png'
+import AdminUrbanBasket7 from '../assets/project-images/Admin-UrbanBasket7.png'
+import AdminUrbanBasket8 from '../assets/project-images/Admin-UrbanBasket8.png'
+
 import travel1 from '../assets/project-images/travel1.png'
 import travel2 from '../assets/project-images/travel2.png'
 import travel3 from '../assets/project-images/travel3.png'
@@ -88,13 +97,44 @@ const projects = [
             "Lucide React & React Icons",
             "JWT",
             "Bcrypt",
-            "Nodemaile",
+            "Nodemailer",
             "Dotenv",
             "Crypto",
             "Body-parser / CORS",
         ],
         sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
         liveLink: "https://urban-basket.netlify.app/",
+    },
+    {
+        id: "admin-urban-basket",
+        title: "Admin - UrbanBasket (E-Commerce)",
+        description:
+            "The Admin Panel is a dedicated dashboard built using the MERN stack to give administrators full control over the e-commerce platform. It provides a secure login system with JWT-based authentication to ensure only authorized admins can access it.\n\nThrough the dashboard, admins can manage the entire product catalog by performing CRUD (Create, Read, Update, Delete) operations on products and categories. The product form supports multiple images, category selection with pill-style UI, and easy updates to product details. Categories can be added or removed dynamically, ensuring flexibility for catalog growth.\n\nThe order management system enables admins to monitor all placed orders, filter them by recent or undelivered status, and update delivery statuses with a single click. Additionally, the dashboard includes user management capabilities, where admins can view registered users and manage their roles.\n\nReal-time admin statistics are displayed to provide insights into total orders, revenue, product counts, and user activity. The frontend is developed with React + Tailwind CSS, offering a clean, responsive, and professional interface with modals, dropdowns, and dynamic tables. The backend is built with Node.js, Express, and MongoDB, ensuring scalability and secure data handling.\n\nThis Admin Panel empowers store owners with a centralized, efficient, and intuitive management system to run their e-commerce business effectively.",
+        images: [
+            AdminUrbanBasket1,
+            AdminUrbanBasket2,
+            AdminUrbanBasket3,
+            AdminUrbanBasket4,
+            AdminUrbanBasket5,
+            AdminUrbanBasket6,
+            AdminUrbanBasket7,
+            AdminUrbanBasket8,
+        ],
+        techStack: [
+            "Node.js",
+            "MongoDB",
+            "Express.js",
+            "React.js",
+            "Tailwind CSS",
+            "Framer Motion",
+            "Axios",
+            "JWT",
+            "Bcrypt",
+            "Dotenv",
+            "Body-parser / CORS",
+        ],
+        sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
+        liveLink: "https://admin-urban-basket.netlify.app/",
     },
     {
         id: "travel-booking",

@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Link } from "react-router-dom";
 import UrbanBasket from "../assets/project-images/UrbanBasket1.png"
+import AdminUrbanBasket from "../assets/project-images/Admin-UrbanBasket1.png"
 import travel1 from "../assets/project-images/travel1.png"
 import netflix1 from "../assets/project-images/netflix1.png"
 import EcoPath1 from "../assets/project-images/EcoPath1.png"
@@ -21,6 +22,21 @@ const projects = [
     ],
     sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
     liveLink: "https://urban-basket.netlify.app/",
+  },
+  {
+    id: "admin-urban-basket",
+    title: "Admin - UrbanBasket (E-Commerce)",
+    description:
+      "Admin-UrbanBasket - An admin dashboard for managing products, categories, users, and orders with real-time statistics and delivery status updates.",
+    image: AdminUrbanBasket,
+    techStack: [
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+    ],
+    sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
+    liveLink: "https://admin-urban-basket.netlify.app/",
   },
   {
     id: "travel-booking",
