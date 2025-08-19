@@ -16,9 +16,22 @@ import travel3 from '../assets/project-images/travel3.png'
 import travel4 from '../assets/project-images/travel4.png'
 import travel5 from '../assets/project-images/travel5.png'
 
+import EcoPath1 from '../assets/project-images/EcoPath1.png'
+import EcoPath2 from '../assets/project-images/EcoPath2.png'
+import EcoPath3 from '../assets/project-images/EcoPath3.png'
+import EcoPath4 from '../assets/project-images/EcoPath4.png'
+import EcoPath5 from '../assets/project-images/EcoPath5.png'
+import EcoPath6 from '../assets/project-images/EcoPath6.png'
+import EcoPath7 from '../assets/project-images/EcoPath7.png'
+import EcoPath8 from '../assets/project-images/EcoPath8.png'
+import EcoPath9 from '../assets/project-images/EcoPath9.png'
+import EcoPath10 from '../assets/project-images/EcoPath10.png'
+import EcoPath11 from '../assets/project-images/EcoPath11.png'
+
 import nteflix1 from "../assets/project-images/netflix1.png"
 import nteflix2 from "../assets/project-images/netflix2.png"
 import nteflix3 from "../assets/project-images/netflix3.png"
+import { SiE3 } from "react-icons/si";
 
 // Example data with multiple images
 const projects = [
@@ -70,6 +83,44 @@ const projects = [
         ],
         sourceCodeLink: "https://github.com/Mukesh704/Travel-Booking",
         liveLink: "https://indianbackpacker.netlify.app/home",
+    },
+    {
+        id: "waste-management",
+        title: "EcoPath - Waste Management",
+        description:
+            "The EcoPath - Waste Management System is a full-stack MERN (MongoDB, Express.js, React, Node.js) project designed to improve urban waste monitoring and streamline municipal operations. Citizens can easily file complaints about uncollected or mismanaged waste by providing details and attaching images of the waste for better visibility.\n\nA unique feature of this system is the AI-powered waste classification module, which automatically analyzes uploaded images and estimates waste composition percentages (e.g., Plastic – 15%, Paper – 20%, Organic – 50%) to help municipalities optimize recycling and disposal strategies.\n\nThe platform also maintains a Locality Information Repository, where details such as locality name, population, and registered societies are stored. This helps municipal authorities keep track of the regions they serve and plan efficient waste collection schedules.\n\nOther features include:\n\n1. Complaint Tracking: Citizens can check the status of their complaints.\n2. Event Waste Reports: Users can report large waste generated from community events or gatherings.\n3. Analytics Dashboard: Admin/municipality officials get real-time analytics of waste data, complaint trends, and AI-driven waste categorization results.\n4. User Authentication: Secure login and signup for residents and municipal staff.\n5. Community Engagement: Residents can view resolved complaints, success stories, and ongoing initiatives.\n\nThis project not only improves transparency between citizens and municipal authorities but also leverages AI for sustainable waste management practices, making cities cleaner, smarter, and more efficient.",
+        images: [
+            EcoPath1,
+            EcoPath2,
+            EcoPath3,
+            EcoPath4,
+            EcoPath5,
+            EcoPath6,
+            EcoPath7,
+            EcoPath8,
+            EcoPath9,
+            EcoPath10,
+            EcoPath11,
+        ],
+        techStack: [
+            "Google Generative AI SDK",
+            "MongoDB Atlas",
+            "React",
+            "Node.js",
+            "Express.js",
+            "React Router DOM",
+            "JWT",
+            "Axios",
+            "Chakra UI",
+            "Framer Motion",
+            "React-Toastify",
+            "Mongoose",
+            "GridFS",
+            "bcryptjs",
+            "Nodemailer",
+        ],
+        sourceCodeLink: "https://github.com/Mukesh704/Waste-Management",
+        liveLink: "https://eco-path.netlify.app/",
     },
     {
         id: "netflix-clone",

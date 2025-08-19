@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import img1 from "../assets/green-login-background.jpg";
 import travel1 from "../assets/project-images/travel1.png"
 import netflix1 from "../assets/project-images/netflix1.png"
+import EcoPath1 from "../assets/project-images/EcoPath1.png"
 
 const projects = [
   {
@@ -37,6 +38,25 @@ const projects = [
     ],
     sourceCodeLink: "https://github.com/Mukesh704/Travel-Booking",
     liveLink: "https://indianbackpacker.netlify.app",
+  },
+  {
+    id: "waste-management",
+    title: "EcoPath - Waste Management",
+    description:
+      "A Waste Management System that allows citizens to file complaints, track waste, and leverage AI for smart waste categorization and municipal insights.",
+    image: EcoPath1,
+    techStack: [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "Chakra UI",
+      "JWT Auth",
+      "GridFS",
+      "Google Gemini AI",
+    ],
+    sourceCodeLink: "https://github.com/Mukesh704/Waste-Management",
+    liveLink: "https://eco-path.netlify.app/",
   },
   {
     id: "netflix-clone",
