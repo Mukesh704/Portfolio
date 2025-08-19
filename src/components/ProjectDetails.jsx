@@ -51,6 +51,24 @@ import EcoPath9 from '../assets/project-images/EcoPath9.png'
 import EcoPath10 from '../assets/project-images/EcoPath10.png'
 import EcoPath11 from '../assets/project-images/EcoPath11.png'
 
+import HRM1 from "../assets/project-images/HRM1.png"
+import HRM2 from "../assets/project-images/HRM2.png"
+import HRM3 from "../assets/project-images/HRM3.png"
+import HRM4 from "../assets/project-images/HRM4.png"
+import HRM5 from "../assets/project-images/HRM5.png"
+import HRM6 from "../assets/project-images/HRM6.png"
+import HRM7 from "../assets/project-images/HRM7.png"
+import HRM8 from "../assets/project-images/HRM8.png"
+import HRM9 from "../assets/project-images/HRM9.png"
+
+import AdminHRM1 from "../assets/project-images/Admin-HRM1.png"
+import AdminHRM2 from "../assets/project-images/Admin-HRM2.png"
+import AdminHRM3 from "../assets/project-images/Admin-HRM3.png"
+import AdminHRM4 from "../assets/project-images/Admin-HRM4.png"
+import AdminHRM5 from "../assets/project-images/Admin-HRM5.png"
+import AdminHRM6 from "../assets/project-images/Admin-HRM6.png"
+import AdminHRM7 from "../assets/project-images/Admin-HRM7.png"
+
 import nteflix1 from "../assets/project-images/netflix1.png"
 import nteflix2 from "../assets/project-images/netflix2.png"
 import nteflix3 from "../assets/project-images/netflix3.png"
@@ -197,6 +215,72 @@ const projects = [
         ],
         sourceCodeLink: "https://github.com/Mukesh704/Waste-Management",
         liveLink: "https://eco-path.netlify.app/",
+    },
+    {
+        id: "hrm",
+        title: "Human Resource Management",
+        description:
+            "The Human Resource Management Website is a full-stack MERN application designed to manage employees, projects, and organizational tasks in a centralized system. Along with core HR functionalities like employee onboarding, attendance tracking, payroll management, and leave applications, the platform introduces advanced task and project management features for teams.\n\nEmployees and managers can maintain personal to-do lists, while team leads get a dedicated dashboard to assign tasks, set deadlines, and monitor progress. Team leads can also add or remove members from projects, ensuring flexibility in managing workforce allocation. Task assignments are tied to specific projects, making it easier to track productivity and meet deadlines.\n\nThe website integrates role-based dashboards:\n\n1. Admin Dashboard → manage employees, departments, and payroll.\n2. Team Lead Dashboard → assign tasks, oversee team performance, manage deadlines, and project members.\n3. Employee Dashboard → view assigned tasks, update task progress, manage personal to-do lists, and request leaves.\n\nWith a modern UI built using React + Tailwind, secure authentication via JWT, and MongoDB for scalable data storage, the platform ensures smooth workflows and collaboration across the organization. Email and notification systems can be integrated to alert users about task updates, approvals, and deadlines.\n\nThis system not only reduces manual HR overhead but also enhances transparency, accountability, and productivity by combining HR management with task and project tracking.",
+        images: [
+            HRM1,
+            HRM2,
+            HRM3,
+            HRM4,
+            HRM5,
+            HRM6,
+            HRM7,
+            HRM8,
+            HRM9,
+        ],
+        techStack: [
+            "MongoDB Atlas",
+            "React",
+            "Node.js",
+            "Express.js",
+            "React Router DOM",
+            "JWT",
+            "Axios",
+            "Framer Motion",
+            "React-Toastify",
+            "Mongoose",
+            "GridFS",
+            "bcryptjs",
+            "Nodemailer",
+        ],
+        sourceCodeLink: "https://github.com/Mukesh704/Human-Resource-Management",
+        liveLink: "",
+    },
+    {
+        id: "admin-hrm",
+        title: "Admin Panel - Human Resource Management",
+        description:
+            "The Admin Panel for Human Resource Management Website is a comprehensive backend management system that empowers administrators to oversee and control all aspects of employee and organizational operations. It provides a centralized interface where HR admins can manage workforce details, departments, and projects while ensuring smooth collaboration across the company.\n\nKey features include the ability to assign roles and statuses (e.g., employee, team lead, manager), giving admins full control over access levels and responsibilities. The panel maintains a complete record of every employee’s details, including personal data, job information, and performance metrics.\n\nAdmins can create team leads and assign them to specific teams or projects. Through the panel, new projects can be created, and employees can be assigned tasks with deadlines, ensuring clear responsibility and accountability. The system also allows the creation and updating of departments, making organizational structuring easier and more scalable.\n\nTo support decision-making, the admin panel provides the ability to generate and manage reports, offering insights into employee performance, task completion, and departmental efficiency. This reporting functionality ensures HR admins have a data-driven perspective for evaluating progress and making improvements.\n\nOverall, the Admin Panel acts as the command center of the HR management system, combining employee lifecycle management, project allocation, task assignments, and departmental structuring into a single, intuitive interface. Built with modern technologies (React for UI, Node.js/Express for backend, MongoDB for scalable storage), it ensures security, scalability, and efficiency in managing human resources at scale.",
+        images: [
+            AdminHRM1,
+            AdminHRM2,
+            AdminHRM3,
+            AdminHRM4,
+            AdminHRM5,
+            AdminHRM6,
+            AdminHRM7,
+        ],
+        techStack: [
+            "MongoDB Atlas",
+            "React",
+            "Node.js",
+            "Express.js",
+            "React Router DOM",
+            "JWT",
+            "Axios",
+            "Framer Motion",
+            "React-Toastify",
+            "Mongoose",
+            "GridFS",
+            "bcryptjs",
+            "Nodemailer",
+        ],
+        sourceCodeLink: "https://github.com/Mukesh704/Human-Resource-Management",
+        liveLink: "",
     },
     {
         id: "netflix-clone",

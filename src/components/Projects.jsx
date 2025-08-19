@@ -6,6 +6,8 @@ import AdminUrbanBasket from "../assets/project-images/Admin-UrbanBasket1.png"
 import travel1 from "../assets/project-images/travel1.png"
 import netflix1 from "../assets/project-images/netflix1.png"
 import EcoPath1 from "../assets/project-images/EcoPath1.png"
+import HRM from "../assets/project-images/HRM2.png"
+import AdminHRM from "../assets/project-images/Admin-HRM1.png"
 
 const projects = [
   {
@@ -71,6 +73,38 @@ const projects = [
     ],
     sourceCodeLink: "https://github.com/Mukesh704/Waste-Management",
     liveLink: "https://eco-path.netlify.app/",
+  },
+  {
+    id: "hrm",
+    title: "Human Resource Management",
+    description:
+      "A Human Resource Management website with task management, team dashboards, and employee lifecycle tools to streamline organizational workflows.",
+    image: HRM,
+    techStack: [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "JWT Auth",
+    ],
+    sourceCodeLink: "https://github.com/Mukesh704/Human-Resource-Management",
+    liveLink: "",
+  },
+  {
+    id: "admin-hrm",
+    title: "Admin Panel - Human Resource Management",
+    description:
+      "An Admin Panel for a Human Resource Management system that centralizes employee management, project oversight, and organizational workflows with role-based controls.",
+    image: AdminHRM,
+    techStack: [
+      "Node.js",
+      "React.js",
+      "Express.js",
+      "MongoDB Atlas",
+      "JWT Auth",
+    ],
+    sourceCodeLink: "https://github.com/Mukesh704/Human-Resource-Management",
+    liveLink: "",
   },
   {
     id: "netflix-clone",
