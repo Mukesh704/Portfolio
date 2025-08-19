@@ -2,13 +2,27 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { useParams, Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import img1 from '../assets/project-images/car1.avif'
-import img2 from '../assets/project-images/car2.avif'
-import img3 from '../assets/project-images/car3.avif'
-import img4 from '../assets/project-images/car4.avif'
-import img5 from '../assets/project-images/car2.avif'
-import img6 from '../assets/project-images/car3.avif'
-import img7 from '../assets/project-images/car4.avif'
+
+import UrbanBasket1 from '../assets/project-images/UrbanBasket1.png'
+import UrbanBasket2 from '../assets/project-images/UrbanBasket2.png'
+import UrbanBasket3 from '../assets/project-images/UrbanBasket3.png'
+import UrbanBasket4 from '../assets/project-images/UrbanBasket4.png'
+import UrbanBasket5 from '../assets/project-images/UrbanBasket5.png'
+import UrbanBasket6 from '../assets/project-images/UrbanBasket6.png'
+import UrbanBasket7 from '../assets/project-images/UrbanBasket7.png'
+import UrbanBasket8 from '../assets/project-images/UrbanBasket8.png'
+import UrbanBasket9 from '../assets/project-images/UrbanBasket9.png'
+import UrbanBasket10 from '../assets/project-images/UrbanBasket10.png'
+import UrbanBasket11 from '../assets/project-images/UrbanBasket11.png'
+import UrbanBasket12 from '../assets/project-images/UrbanBasket12.png'
+import UrbanBasket13 from '../assets/project-images/UrbanBasket13.png'
+import UrbanBasket14 from '../assets/project-images/UrbanBasket14.png'
+import UrbanBasket15 from '../assets/project-images/UrbanBasket15.png'
+import UrbanBasket16 from '../assets/project-images/UrbanBasket16.png'
+import UrbanBasket17 from '../assets/project-images/UrbanBasket17.png'
+import UrbanBasket18 from '../assets/project-images/UrbanBasket18.png'
+import UrbanBasket19 from '../assets/project-images/UrbanBasket19.png'
+import UrbanBasket20 from '../assets/project-images/UrbanBasket20.png'
 
 import travel1 from '../assets/project-images/travel1.png'
 import travel2 from '../assets/project-images/travel2.png'
@@ -36,29 +50,51 @@ import { SiE3 } from "react-icons/si";
 // Example data with multiple images
 const projects = [
     {
-        id: "elite-rentals",
-        title: "Elite Rentals",
+        id: "urban-basket",
+        title: "UrbanBasket - Ecommerce Website",
         description:
-            "Elite Rentals is a car rental platform where customers can seamlessly browse and book cars, while admins can manage bookings, cars, and users. Built with a MERN stack for full scalability and responsiveness. \n\nKey features include authentication, role-based dashboards, advanced car filtering, and secure payments. This project demonstrates full-stack development skills, backend scalability, and a polished UI/UX with Framer Motion animations.",
+            "This e-commerce platform is built using the MERN stack (MongoDB, Express.js, React, and Node.js) and provides a seamless shopping experience for customers. Users can create accounts, log in securely with JWT authentication, and manage their profile information. The website allows customers to browse through products, search for specific items using keywords or categories, and view detailed product pages that include descriptions, reviews, ratings, and wishlist options.\n\nThe shopping cart feature enables users to add or remove products, adjust quantities, and view a running total before proceeding to checkout. A streamlined checkout process supports address management, selection of primary or alternative addresses, and order placement with delivery tracking. Users can also maintain a wishlist for products they want to save for later.\n\nDynamic features like review submission, star ratings (including half stars), deal-of-the-day sliders, and category-based browsing enhance the shopping experience. The frontend, built with React and styled using Tailwind CSS, ensures a responsive, modern, and user-friendly interface. The backend, powered by Express and MongoDB, manages products, users, orders, wishlist, and authentication securely with token handling and route protection.\n\nOverall, this project delivers a robust, scalable, and user-friendly e-commerce solution, laying the foundation for a professional shopping platform that can be extended with features like payment integration and analytics.",
         images: [
-            img1,
-            img2,
-            img3,
-            img4,
-            img5,
-            img6,
-            img7,
+            UrbanBasket1,
+            UrbanBasket2,
+            UrbanBasket3,
+            UrbanBasket4,
+            UrbanBasket5,
+            UrbanBasket6,
+            UrbanBasket7,
+            UrbanBasket8,
+            UrbanBasket9,
+            UrbanBasket10,
+            UrbanBasket11,
+            UrbanBasket12,
+            UrbanBasket13,
+            UrbanBasket14,
+            UrbanBasket15,
+            UrbanBasket16,
+            UrbanBasket17,
+            UrbanBasket18,
+            UrbanBasket19,
+            UrbanBasket20,
         ],
         techStack: [
-            "NodeJS",
+            "Node.js",
             "MongoDB",
-            "Express",
-            "React",
+            "Express.js",
+            "React.js",
             "Tailwind CSS",
             "Framer Motion",
+            "Axios",
+            "React Slick + Slick Carousel",
+            "Lucide React & React Icons",
+            "JWT",
+            "Bcrypt",
+            "Nodemaile",
+            "Dotenv",
+            "Crypto",
+            "Body-parser / CORS",
         ],
-        sourceCodeLink: "https://github.com/yourusername/elite-rentals",
-        liveLink: "https://eliterentals.vercel.app",
+        sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
+        liveLink: "https://urban-basket.netlify.app/",
     },
     {
         id: "travel-booking",

@@ -1,28 +1,26 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import { Link } from "react-router-dom";
-import img1 from "../assets/green-login-background.jpg";
+import UrbanBasket from "../assets/project-images/UrbanBasket1.png"
 import travel1 from "../assets/project-images/travel1.png"
 import netflix1 from "../assets/project-images/netflix1.png"
 import EcoPath1 from "../assets/project-images/EcoPath1.png"
 
 const projects = [
   {
-    id: "elite-rentals",
-    title: "Elite Rentals",
+    id: "urban-basket",
+    title: "UrbanBasket - Ecommerce Website",
     description:
-      "A car rental platform for admins and customers. Seamless booking and management.",
-    image: img1,
+      "UrbanBasket - An e-commerce website enabling users to browse, search, and purchase products with secure authentication, wishlist, cart, checkout, and order management features.",
+    image: UrbanBasket,
     techStack: [
-      "NodeJS",
+      "Node.js",
       "MongoDB",
-      "Express",
-      "React",
-      "Tailwind CSS",
-      "Framer Motion",
+      "Express.js",
+      "React.js",
     ],
-    sourceCodeLink: "https://github.com/yourusername/elite-rentals",
-    liveLink: "https://eliterentals.vercel.app",
+    sourceCodeLink: "https://github.com/Mukesh704/E-commerce",
+    liveLink: "https://urban-basket.netlify.app/",
   },
   {
     id: "travel-booking",
